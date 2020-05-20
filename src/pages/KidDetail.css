@@ -1,0 +1,19 @@
+#kid-detail-page ion-button {
+  --border-radius: 100%;
+  --padding-bottom: 0;
+  --padding-top: 0;
+  --padding-start: 0;
+  --padding-end: 0;
+  width: 64px;
+  height: 64px;
+}
+
+#kid-detail-page ion-icon {
+  font-size: 40px;
+}
+
+#kid-detail-page .progress-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
