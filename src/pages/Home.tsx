@@ -1,10 +1,8 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonButtons, IonButton, IonIcon, IonModal, useIonViewWillEnter, IonList, IonItem, IonAvatar, IonLabel, IonChip } from '@ionic/react';
 import React, { useState } from 'react';
-import ExploreContainer from '../components/ExploreContainer';
-import './Home.css';
 import { add } from 'ionicons/icons';
 import { AddKidForm } from '../components/AddKidForm';
-import { Kid, getKids, getKid } from '../service/data.service';
+import { Kid, getKids } from '../service/data.service';
 
 const Home: React.FC = () => {
   const [kids, setKids] = useState<Kid[]>([]);
