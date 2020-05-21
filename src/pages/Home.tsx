@@ -38,7 +38,7 @@ const Home: React.FC = () => {
               <IonItem key={n} routerLink={`/kid/${kid.name}`}>
                 {kid.image && (
                   <IonAvatar slot="start">
-                    <img src={kid.image} />
+                    <img alt="avatar" src={kid.image} />
                   </IonAvatar>
                 )}
                 <IonLabel>

@@ -43,7 +43,7 @@ export const AddKidForm: React.FC<AddKidFormProps> = ({ onClose }) => {
               quality: 100
             })}>
             {photo ? (
-              <img style={{ width: '152px', height: '152px' }} src={`${photo.dataUrl}`} />
+              <img alt="avatar" style={{ width: '152px', height: '152px' }} src={`${photo.dataUrl}`} />
             ) : (
               <IonIcon style={{ fontSize: '72px' }} icon={camera} />
             )}
